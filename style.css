@@ -1,0 +1,624 @@
+body{ 
+    background-image: url("./images/image2.jpg");
+}
+.img {
+    width: 100px;
+    height: 80px;
+}
+.imgg{
+    width: 400px;
+    height: 420px; 
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.to_oppercase{
+    text-transform: uppercase;
+}
+.clearfix{
+    clear: both;
+}
+.main-header-brend{
+    display: inline-block;
+    vertical-align: middle;
+}
+.min-nav{
+    display: inline-block;
+    vertical-align: middle;
+}
+.min__item{
+    display: inline-block;
+    padding-left: 20px;
+    margin-left: 60px;
+    margin-bottom: 80px;
+}
+.min__item a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+}
+.min__item a:hover {
+    color:rgb(14, 161, 14);
+}
+.min__item.activate a{
+    color: rgb(14, 161, 14);
+}
+.main-section > div {
+    width: 50%;
+    float: left;
+}
+.main-section__image{
+    text-align: right;
+}
+
+.main-section__welcomee{
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: #a19c9c;
+}
+.main-section__name{
+   margin-top: 20px;
+   font-size: 40px;
+   margin-bottom: 890px;
+   margin-bottom: 20px;
+   color: white;
+}
+.Programmer{
+    color: rgb(68, 169, 43);
+}
+.main-section__position{
+    color: #05364E;
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 20px;
+
+}
+@keyframes pulsate {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+  }
+  .animated-button {
+    /* ... existing styles ... */
+    animation: pulsate 2s ease-in-out infinite;
+  }
+  .animated-button {
+    /* ... existing styles ... */
+    transition: background-color 0.3s ease;
+  }
+  .animated-button:hover {
+    background-color: #09d82c;
+  }
+.animated-button {
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #1ce637;
+    color: #fff;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+.resume{
+    color: white;
+    text-decoration: none;
+}  
+    
+.statistics{
+    padding-top: 100px;
+}
+.statistics__item{
+    display: inline-block;
+    background-color: #f8faff;
+    text-align: center;
+    margin-right: 20px;
+    padding: 5px 10px;
+}
+.statistics__namber{
+    font-size: 27px;
+    margin-bottom: 5px;
+    color: #1c44e4;
+}
+.statistics__title{
+    font-size: 16px;
+    color: #797979;
+    font-weight: 300;
+} 
+.containerr{
+    width: 1140px;
+    margin: 0 auto;
+    margin-left: 110px;
+}
+.Portfolio{
+    margin-right: 25%;
+}
+.top-register{
+    color: white;
+
+}
+.top__konikmalar-title{
+       text-align: center;
+       font-size: 20px;
+       color: white;
+       
+}
+.top__konikmalar-desc{
+    text-align: center;
+    color: rgb(168, 161, 161);
+    
+
+}
+.Konikmalar{
+    display: flex;
+    margin-top: 3%;
+    
+    
+
+}
+.Konikmalar__backend{
+    border: 3px solid green;
+    width: 31%;
+    background-color: #1b1c20;
+    border-radius: 20px;
+    margin-left: 14%;
+
+    
+}
+.backend{
+    color: white;
+    text-align: center;
+    margin-bottom: 35px;
+}
+.boshqa{
+    color: white;
+    text-align: center;
+    margin-bottom: 35px;
+}
+.konikmalar__frontend{
+    border: 3px solid green;
+    width: 32%;
+    background-color: #1b1c20;
+    border-radius: 29px;
+    margin-left: 7%;
+   
+}
+.boshqa-konikmalar{
+    display: flex;
+    margin-left: 6%;
+    margin-top: 30px;
+}
+.konikmalar__Boshqa{
+    border: 3px solid green;
+    width: 34%;
+    background-color: #1b1c20;
+    border-radius: 29px;
+    margin-left: 100px;
+}
+.konikmalar__mobile{
+    border: 3px solid green;
+    width: 36%;
+    background-color: #1b1c20;
+    border-radius: 29px;
+    margin-left: 6%;
+}
+.mobile{
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.frontend{
+    color: white;
+    text-align: center;
+    margin-bottom: 30px ;
+}
+.node-js{
+    border: 2px solid rgb(9, 204, 9);
+    width: 20%;
+    color: white;
+    font-size: 13px;
+    border-radius: 20px;
+    color: white;
+    margin-left: 10%;
+    padding-left: 5%;
+    display: inline-block;
+}
+.express-js{
+    border: 2px solid rgb(9, 204, 9);
+    width: 20%;
+    font-size: 13px;
+    border-radius: 20px;
+    color: white;
+    margin-left: 1%;
+    padding-left: 5%;
+    display: inline-block;
+}
+.python{
+    border: 2px solid rgb(9, 204, 9);
+    width: 20%;
+    font-size: 13px;
+    border-radius: 20px;
+    color: white;
+    margin-left: 1%;
+    padding-left: 5%;
+    display: inline-block;
+}
+.mysql{
+    border: 2px solid rgb(9, 204, 9);
+    width: 20%;
+    font-size: 13px;
+    border-radius: 20px;
+    color: white;
+    margin-left: 3%;
+    padding-left: 5%;
+    margin-top: 25px;
+    margin-left: 20%;
+    display: inline-block;
+}
+.postgressql{
+    border: 2px solid rgb(9, 204, 9);
+    width: 20%;
+    font-size: 13px;
+    border-radius: 20px;
+    color: white;
+    margin-left: 1%;
+    padding-left: 5%;
+    margin-top: 25px;
+    margin-right: 18%;
+    display: inline-block;
+}
+.mongo{
+    border: 2px solid rgb(9, 204, 9);
+    width: 20%;
+    font-size: 13px;
+    border-radius: 20px;
+    color: white;
+    margin-left: 10%;
+    padding-left: 5%;
+    margin-top: 25px;
+    display: inline-block;
+}
+.redis{
+    border: 2px solid rgb(9, 204, 9);
+    width: 20%;
+    font-size: 13px;
+    border-radius: 20px;
+    color: white;
+    margin-left: 1%;
+    padding-left: 5%;
+    margin-top: 25px;
+    display: inline-block;
+}
+.flask{
+    border: 2px solid rgb(9, 204, 9);
+    width: 20%;
+    font-size: 13px;
+    border-radius: 20px;
+    color: white;
+    margin-left: 1%;
+    padding-left: 5%;
+    margin-top: 25px;
+    display: inline-block;
+}
+.php{
+    border: 2px solid rgb(9, 204, 9);
+    width: 20%;
+    font-size: 13px;
+    border-radius: 20px;
+    color: white;
+    margin-left: 10%;
+    padding-left: 5%;
+    margin-top: 25px;
+    display: inline-block;
+}
+.laravel{
+    border: 2px solid rgb(9, 204, 9);
+    width: 20%;
+    font-size: 13px;
+    border-radius: 20px;
+    color: white;
+    margin-left: 1%;
+    padding-left: 5%;
+    margin-top: 25px;
+    display: inline-block;
+}
+.websocket{
+    border: 2px solid rgb(9, 204, 9);
+    width: 20%;
+    font-size: 13px;
+    border-radius: 20px;
+    color: white;
+    margin-left: 1%;
+    padding-left: 5%;
+    margin-top: 25px;
+    display: inline-block;
+}
+.celery{
+    border: 2px solid rgb(9, 204, 9);
+    width: 20%;
+    font-size: 13px;
+    border-radius: 20px;
+    color: white;
+    margin-left: 1%;
+    padding-left: 5%;
+    margin-top: 25px;
+    margin-left: 18%;
+    display: inline-block;
+}
+.telegram-bot{
+    border: 2px solid rgb(9, 204, 9);
+    width: 24%;
+    font-size: 13px;
+    border-radius: 20px;
+    color: white;
+    margin-left: 1%;
+    padding-left: 5%;
+    margin-top: 25px;
+    margin-right: 20%;
+    display: inline-block;
+}
+.django{
+    border: 2px solid rgb(9, 204, 9);    width: 20%;
+    font-size: 13px;
+    border-radius: 20px;
+    color: white;
+    margin-left: 1%;
+    padding-left: 5%;
+    margin-top: 25px;
+    margin-left: 18%;
+    display: inline-block;
+}
+.eventStream{
+    border: 2px solid rgb(9, 204, 9);
+    width: 24%;
+    font-size: 13px;
+    border-radius: 20px;
+    color: white;
+    margin-left: 1%;
+    padding-left: 5%;
+    margin-top: 25px;
+    margin-right: 20%;
+    display: inline-block;
+}
+.Django-Rest-Framework{
+    border: 2px solid rgb(9, 204, 9);
+    width: 40%;
+    font-size: 13px;
+    border-radius: 20px;
+    color: white;
+    padding-left: 3%;
+    padding-right: 2%;
+    margin-top: 25px;
+    margin-left: 10%;
+    display: inline-block;
+}
+.Pyrogram{
+    border: 2px solid rgb(9, 204, 9);
+    width: 25%;
+    font-size: 13px;
+    border-radius: 20px;
+    color: white;
+    padding-left: 5%;
+    margin-top: 25px;
+    margin-left: 1%;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+.react{
+    border: 2px solid rgb(9, 204, 9);
+    width: 20%;
+    font-size: 13px;
+    border-radius: 20px;
+    color: white;
+    margin-left: 14%;
+    padding-left: 2%;
+    display: inline-block;
+}
+.html{
+    border: 2px solid rgb(9, 204, 9);
+    width: 20%;
+    font-size: 13px;
+    border-radius: 20px;
+    color: white;
+    margin-left: 1%;
+    padding-left: 3%;
+    display: inline-block;
+}
+.css{
+    border: 2px solid rgb(9, 204, 9);
+    width: 20%;
+    font-size: 13px;
+    border-radius: 20px;
+    color: white;
+    margin-left: 1%;
+    padding-left: 3%;
+    display: inline-block;
+}
+.javascript{
+    border: 2px solid rgb(9, 204, 9);
+    width: 20%;
+    font-size: 13px;
+    border-radius: 20px;
+    color: white;
+    margin-left: 5%;
+    padding-left: 10%;
+    margin-top: 25px;
+    margin-left: 20%;
+    display: inline-block;
+}
+.bootstrap{
+    border: 2px solid rgb(9, 204, 9);
+    width: 20%;
+    font-size: 13px;
+    border-radius: 20px;
+    color: white;
+    margin-left: 1%;
+    padding-left: 10%;
+    margin-top: 25px;
+    display: inline-block;
+}
+.vuejs{
+    border: 2px solid rgb(9, 204, 9);
+    width: 20%;
+    font-size: 13px;
+    border-radius: 20px;
+    color: white;
+    margin-left: 8%;
+    padding-left: 5%;
+    margin-top: 25px;
+    display: inline-block;
+}
+.tailwindcss{
+    border: 2px solid rgb(9, 204, 9);
+    width: 20%;
+    font-size: 13px;
+    border-radius: 20px;
+    color: white;
+    margin-left: 1%;
+    padding-left: 5%;
+    margin-top: 25px;
+    display: inline-block;
+}
+.redux{
+    border: 2px solid rgb(9, 204, 9);
+    width: 20%;
+    font-size: 13px;
+    border-radius: 20px;
+    color: white;
+    margin-left: 1%;
+    padding-left: 5%;
+    margin-top: 15px;
+    display: inline-block;
+}
+.typescript{
+    border: 2px solid rgb(9, 204, 9);
+    width: 20%;
+    font-size: 13px;
+    border-radius: 20px;
+    color: white;
+    margin-left: 36%;
+    padding-left: 5%;
+    margin-top: 25px;
+    display: inline-block;
+}
+.linux{
+    border: 2px solid rgb(9, 204, 9);
+    width: 20%;
+    font-size: 13px;
+    border-radius: 20px;
+    color: white;
+    margin-left: 14%;
+    padding-left: 2%;
+    display: inline-block;
+}
+.git{
+    border: 2px solid rgb(9, 204, 9);
+    width: 20%;
+    font-size: 13px;
+    border-radius: 20px;
+    color: white;
+    margin-left: 1%;
+    padding-left: 5%;
+    display: inline-block;
+}
+.docket{
+    border: 2px solid rgb(9, 204, 9);
+    width: 20%;
+    font-size: 13px;
+    border-radius: 20px;
+    color: white;
+    margin-left: 1%;
+    padding-left: 3%;
+    display: inline-block;
+}
+.va-boshqalar{
+    border: 2px solid rgb(9, 204, 9);
+    width: 25%;
+    font-size: 13px;
+    border-radius: 20px;
+    color: white;
+    margin-left: 30%;
+    padding-left: 8%;
+    padding-right: 8%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+.react-native{
+    border: 2px solid rgb(9, 204, 9);
+    width: 20%;
+    font-size: 13px;
+    border-radius: 20px;
+    color: white;
+    margin-left: 25%;
+    padding-left: 2%;
+    display: inline-block;
+}
+.lonic{
+    border: 2px solid rgb(9, 204, 9);
+    width: 20%;
+    font-size: 13px;
+    border-radius: 20px;
+    color: white;
+    margin-left: 1%;
+    padding-left: 2%;
+    display: inline-block;
+}
+.tajriba{
+    text-align: center;
+    margin-top: 10%;
+}
+.tajriba-title{
+    font-size: 23px;
+    color: white;
+}
+.tajriba-desc{
+    margin-top: -25px;
+    font-size: 21px;
+    color:rgb(104, 101, 101);
+}
+.rasm{
+    width: 40px;
+    height: 45px;
+    border: 10px;
+    display: inline-block;
+}
+.form{
+    border: 3px solid aqua;
+    width: 40%;
+    border-radius: 20px;
+    padding-left: 15px;
+    padding-top: 15px;
+    display: inline-block;
+    margin-left: 30%;
+}
+.form-title{
+    display: inline-block;
+    color: rgb(202, 198, 198);
+    margin-top: -30px;
+
+}
+.form-desc{
+    color: rgb(170, 164, 164);
+    margin-top: -40px;
+}
+.form-text{
+    color: white;
+}
+.link{
+    background: #1FCF25;
+background: linear-gradient(to right, #1FCF25 0%, #4B23CF 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+    font-size: 18px;
+    
+}
+ 

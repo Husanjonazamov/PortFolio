@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(73, 71, 71);
+}
+.malumot{
+    background-color: white;
+    text-align: center;
+    border: 4px solid green;
+    border-radius: 20px;
+    width: 50%;
+    margin-left: 25%;
+
+    
+}
+.title{
+    text-align: center;
+    background: #1FCF25;
+    background: linear-gradient(to right, #1FCF25 0%, #4B23CF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 30px;
+    border: 4px solid blue;
+    border-top: white;
+    border-left: white;
+    border-right: white;
+  
+   
+}
